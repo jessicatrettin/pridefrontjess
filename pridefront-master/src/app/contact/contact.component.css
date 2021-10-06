@@ -1,0 +1,22 @@
+input.btn.btn-primary{
+  width: 8em;
+  align-self: center;
+  color:black;
+  background-color: white;
+  /*color:black;
+   background-color: white;
+   border-color: white;*/
+  }
+  
+  
+  /*form{
+    align-self: center;
+    width: 70em;
+    padding: 90px;
+  }*/
+
+select,
+input,
+textarea{
+  width: 52em;
+}

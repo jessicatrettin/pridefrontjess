@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<main>
+
+  <h1>Formulário de contato</h1>
+
+  <form>
+    <meta charset="UTF-8">
+    <div class="col-auto">
+
+    </div>
+
+    <div class="col-auto">
+      <label for="autoSizingInputGroup">Nome:</label>
+      <input type="name" class="form-control" id="Nome" />
+    </div>
+
+    <div class="col-auto">
+      <label for="autoSizingInputGroup">E-mail:</label>
+      <input
+        type="email"
+        class="form-control"
+        id="Email"
+        placeholder="nome@exemplo.com"
+      />
+    </div>
+
+    <div class="col-auto">
+      <label for="autoSizingInputGroup">Telefone</label>
+      <input
+        type="telephone"
+        class="form-control"
+        id="Telefone"
+        mask="(00) 00000-0000"
+        placeholder="(xx) xxxxx-xxxx"
+      />
+    </div>
+    
+    <div class="col-auto">
+      <label for="exampleFormControlSelect1">Motivo do Contato</label>
+      <select class="form-control" id="Mensagem">
+        <option>Dúvidas</option>
+        <option>Sugestões</option>
+        <option>Elogios</option>
+        <option>Reclamações</option>
+      </select>
+    </div>
+    <div class="col-auto">
+      <label for="exampleFormControlTextarea1">Mensagem</label>
+      <textarea
+        class="form-control"
+        id="exampleFormControlTextarea1"
+        rows="4"
+      ></textarea>
+    </div><br>
+
+    <div class="col-auto" id="button">
+      <input class="btn btn-primary" type="submit" value="Enviar">
+    </div>
+  </form>
+
+</main>

@@ -1,0 +1,30 @@
+select,
+input,
+textarea{
+  width: 52em;
+}
+
+input#txtBusca{
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  input#button{
+    margin-left: 10px;
+  }
+
+  img{
+    position: absolute;
+    max-width: 250px;
+    max-height: 250px;
+    right: 100px;
+    margin-bottom: 90px;
+  }
+form{
+  margin-top: 50px;
+}
+input#outro{
+  width: 43em;
+}
+
+
+
