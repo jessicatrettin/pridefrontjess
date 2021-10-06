@@ -1,0 +1,30 @@
+/*#coments{
+    width: 70em;
+}
+
+form{
+    text-align: center;
+    width: 70em;
+    padding: 90px;
+  }*/
+
+  select,
+  input,
+  textarea{
+    width: 52em;
+  }
+input#txtBusca{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+input#button{
+  margin-left: 10px;
+}
+
+input#outro{
+  width: 43em;
+}
+form{
+  width: 70em;
+}
+
