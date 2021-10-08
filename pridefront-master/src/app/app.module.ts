@@ -13,6 +13,7 @@ import { ComplaintComponent } from './complaint/complaint.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { FindProfessionalsComponent } from './find-professionals/find-professionals.component';
 import { LoginComponent } from './login/login.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { LoginComponent } from './login/login.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     NgxMaskModule.forRoot(),
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

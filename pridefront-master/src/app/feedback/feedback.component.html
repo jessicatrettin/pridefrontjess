@@ -4,12 +4,6 @@
 <meta charset="UTF-8">
 <div class="col-auto">
 
-<div id="divBusca">
-  <input type="text" id="txtBusca" placeholder="Buscar Profissionais"/>
-  <input type="submit" value="Buscar" id="button">
-</div>
-
-
   <label id="professionalType">
     <span for="exampleFormControlSelect1">Profissional*</span>
     <select class="form-control" id="Mensagem"><br>
@@ -20,14 +14,8 @@
       <option>Nutricionaista</option>
       <option>Enfermeiro</option>
       <option>Fisioterapeuta</option>
-      <option>Outro</option>
     </select>
   </label><br>
-
-  <label for = "outro ">
-    <span> Outro:</span><br>
-    <input type="text " id="outro" Nome="outro">
-    </label><br>
 
   <label id="specialty">
     <span for="exampleFormControlSelect1">Especialidade*</span>
@@ -37,11 +25,7 @@
     </select>
   </label><br>
 
-  <label for = "outro ">
-    <span> Outro:</span><br>
-    <input type="text " id="outro" Nome="outro">
-    </label><br>
-
+  <input type="submit" value="Buscar" id="button"><br><br>
 
 <div class="intercom-reaction-prompt">Qual sua avaliação?</div>
 <button class="intercom-reaction" data-reaction-text="star" tabindex="0" aria-label="Disappointed Reaction">
@@ -59,6 +43,15 @@
     <button class="intercom-reaction" data-reaction-text="star" tabindex="0" aria-label="Neutral face Reaction">
       <span data-emoji="star5" title="5">⭐</span>
       </button>
+
+<div class="col-auto">
+  <label for="feedbackTextarea1">Comentários</label>
+  <textarea
+    class="form-control"
+    id="feedbackTextarea1"
+    rows="4"
+  ></textarea>
+</div><br>
 
 
 

@@ -1,3 +1,4 @@
+import { ProfessionalService } from './../professional.service';
 import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home',
@@ -6,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private professionalService: ProfessionalService) { }
 
   ngOnInit(): void {
+    this.professionalService.getProfessional("jessica@gmail.com");
   }
 
 }
