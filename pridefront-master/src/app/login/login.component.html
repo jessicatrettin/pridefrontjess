@@ -1,25 +1,36 @@
-<h1>Login</h1>
+<div class="container" id="login">
+  
+    <div class="title">
+      <h1>Login</h1>
+    </div>
 
-<form id="login-form">
+    <div id="login-form">
 
-    <label id="specialty">
-        <span for="exampleFormControlSelect1">Você é?</span>
-        <select class="form-control" id="person"><br>
-        <option>Profissional</option>
-        <option>Paciente</option>
-        </select> 
-    </label><br>
+        <form>
+            <label id="user-select">
+                <span>Você é?</span>
+                <select class="form-control" id="user"><br>
+                    <option>Profissional</option>
+                    <option>Paciente</option>
+                </select> 
+            </label><br>
 
-    <label id="e-mail">
-        <span>E-mail</span><br>
-        <input type="email" name="e-mail" placeholder="nome@exemplo.com">
-    </label><br>
+            <label id="e-mail">
+                <span>E-mail</span><br>
+                <input type="email" name="e-mail" placeholder="nome@exemplo.com">
+            </label><br>
 
-    <label id="password">
-        <span>Senha*</span><br>
-        <input type="password" id="senha" Nome="senha">
-    </label><br><br>
+            <label id="password">
+                <span>Senha*</span><br>
+                <input type="password" id="senha" Nome="senha">
+            </label><br><br>
+            
+            <div id="button">
+                <input type="submit" value="Entrar" id="button">   
+            </div>
+        </form>
+    </div>
 
-    <input type="submit" value="Entrar" id="button">
-
-</form>
+    
+    
+</div>

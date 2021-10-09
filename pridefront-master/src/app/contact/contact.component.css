@@ -15,8 +15,15 @@ input.btn.btn-primary{
     padding: 90px;
   }*/
 
-select,
-input,
-textarea{
-  width: 52em;
-}
+  select,
+  textarea{
+    width: 42em;
+  }
+  
+  input{
+    width: 42em;
+  }
+
+  #button{
+    text-align: center;
+  }

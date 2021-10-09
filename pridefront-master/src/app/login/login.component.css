@@ -1,7 +1,11 @@
-select#Mensagem.form-control{
-  width: 52em;
+select{
+  width: 42em;
 }
 
 input{
-  width: 52em;
+  width: 35em;
+}
+
+#button{
+  text-align: center;
 }

@@ -6,6 +6,7 @@ body {
 
 #top-home {
   text-align: center;
+  text-align-last: center;
   font-size: 28px;
   top: 50%;
   margin-top: 80px;
@@ -19,7 +20,7 @@ h1  {
 
 label{
   font-size: 120%;
-  text-align: start;
+  /*text-align: start;*/
 }
 
 select,
@@ -31,13 +32,13 @@ textarea{
 }
 
 form{
-  position: absolute;
-  text-align: start(input);
+    text-align: start(input);
 }
 
 input#button{
   width: 8em;
   align-self: center;
+  text-align: center;
   color:black;
   background-color: white;
 }
@@ -61,7 +62,7 @@ input#button{
   color: black;
   text-align: center;
   vertical-align: middle;
-  padding: 32px 20px;
+  padding: 28px 20px;
   text-decoration: none;
   font-size: 18px;
   line-height: 0.5px;
@@ -101,11 +102,12 @@ input#button{
   }
 
  img{
-    position: absolute;
+    position: relative;
     top: 250px;
     max-width: 200px;
     max-height: 200px;
   }
+
 
 
 }

@@ -1,21 +1,12 @@
 select,
-input,
 textarea{
-  width: 52em;
+  width: 42em;
 }
 
-input#txtBusca{
-    margin-bottom: 15px;
-    margin-top: 10px;
-  }
-  input#button{
-    margin-left: 10px;
-  }
-
-  input#outro{
-    width: 43em;
-  }
-div#divBusca{
-  margin-top: 50px;
+input{
+  width: 35em;
 }
 
+#button{
+  text-align: center;
+}

@@ -7,15 +7,20 @@ img{
 
   }
 
-  h1{
-    text-align: center;
-  }
+h1{
+  text-align: center;
+}
+
 input{
   width: 26em;
 }
 
+#button{
+  text-align: center;
+}
+
 select{
-  width: 31em;
+  width: 31.2em;
 }
 
 

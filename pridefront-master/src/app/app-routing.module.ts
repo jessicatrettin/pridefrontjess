@@ -17,7 +17,7 @@ const routes: Routes = [
   {path: 'pacientes',component: PatientsComponent},
   {path: 'denúncia',component: ComplaintComponent},
   {path: 'avaliação',component: FeedbackComponent},
-  {path: 'encontre-profissionais', component: FindProfessionalsComponent},
+  {path: 'procurar', component: FindProfessionalsComponent},
   {path: 'login', component: LoginComponent}];
 
 @NgModule({
