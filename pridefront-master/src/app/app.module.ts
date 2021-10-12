@@ -14,6 +14,7 @@ import { FeedbackComponent } from './feedback/feedback.component';
 import { FindProfessionalsComponent } from './find-professionals/find-professionals.component';
 import { LoginComponent } from './login/login.component';
 import { HttpClientModule } from '@angular/common/http'
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { HttpClientModule } from '@angular/common/http'
     BrowserAnimationsModule,
     NgxMaskModule.forRoot(),
     CarouselModule.forRoot(),
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

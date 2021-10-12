@@ -7,26 +7,26 @@
         <h1>Cadastro de profissional</h1>
       </div>
 
-      <form id="professionals-form">
+      <form id="professionals-form" (ngSubmit)="post()" >
 
         <label id="name">
           <span>Nome*</span><br>
-          <input type="text" name="name">
+          <input type="text" name="name" [(ngModel)]="this.professionalService.professional.Name">
         </label><br>
 
         <label id="cpf">
           <span>CPF*</span><br>
-          <input type="text" name="cpf" mask="000.000.000-00" placeholder="000.000.000-00">
+          <input type="text" name="cpf" mask="000.000.000-00" placeholder="000.000.000-00"  [(ngModel)]="this.professionalService.professional.CPF">
         </label><br>
 
         <label id="professional-register">
           <span>Registro profissional*</span><br>
-          <input type="text" name="professional-register">
+          <input type="text" name="professional-register"  [(ngModel)]="this.professionalService.professional.Register">
         </label><br>
 
         <label id="e-mail">
           <span>E-mail*</span><br>
-          <input type="email" name="e-mail" placeholder="nome@exemplo.com">
+          <input type="email" name="e-mail" placeholder="nome@exemplo.com"  [(ngModel)]="this.professionalService.professional.Email">
         </label><br>
 
         <label id="professionalType">
@@ -52,32 +52,33 @@
 
         <label id="place">
           <span>Local de atendimento*</span><br>
-          <input type="text" id="place">
+          <input type="text" id="place" name="place"  [(ngModel)]="this.professionalService.professional.Address">
         </label><br>
 
         <label id="phone">
           <span>Contato*</span><br>
-          <input type="tel" name="phone" mask="(00) 00000-0000" placeholder="(00) 00000-0000">
+          <input type="tel" name="phone" mask="(00) 00000-0000" placeholder="(00) 00000-0000"  [(ngModel)]="this.professionalService.professional.Phone">
         </label><br>
 
         <label id="social-media">
           <span>Instagram</span><br>
-          <input type="text" name="instagram" placeholder="Instagram">
+          <input type="text" name="instagram" placeholder="Instagram"  [(ngModel)]="this.professionalService.professional.Instagram">
         </label><br>
 
         <label id="health-insurance">
           <span>Convênios</span><br>
-          <input type="text" name="health-insurance">
+          <input type="text" name="health-insurance"  [(ngModel)]="this.professionalService.professional.HealthInsurance">
         </label><br>
 
         <label id="password">
           <span>Senha*</span><br>
-          <input type="password" id="senha" Nome="senha">
+          <input type="password" id="senha" name="senha"  [(ngModel)]="this.professionalService.professional.Password">
         </label><br><br>
 
-        <div id="button">
-          <input type="submit" value="Salvar" id="button">
+        <div class="col-auto" id="button">
+          <input class="btn btn-primary" type="submit" value="Envia r">
         </div>
+        
 
       </form>
     </div>

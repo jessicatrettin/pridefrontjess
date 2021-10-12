@@ -1,3 +1,4 @@
+import { ProfessionalService } from './../professional.service';
 import { Component, OnInit } from '@angular/core';
 
 
@@ -8,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfessionalsComponent implements OnInit {
 
-  constructor() { }
+  constructor(public professionalService: ProfessionalService) { }
 
   ngOnInit(): void {
+  }
+
+  post(){
+    debugger;
+    this.professionalService.postProfessional()
   }
 
 }
